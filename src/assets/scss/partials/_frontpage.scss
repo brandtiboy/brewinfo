@@ -1,0 +1,67 @@
+.quote {
+	margin: 4rem 0 6rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	span {
+		width: 75%;
+		line-height: 150%;
+	}
+}
+
+.tap {
+	p {
+		font-size: 1.6rem;
+		font-weight: 500;
+		color: #F6C44C;
+	}
+
+	&__selections {
+		margin-top: 1.6rem;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__selection {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 26vw;
+		height: 26vw;
+		border-radius: 50%;
+		background: #282828;
+
+		span {
+			position: absolute;
+			top: 110%;
+			font-size: 1.4rem;
+			font-weight: 400;
+			color: white;
+		}
+	}
+}
+
+.steps {
+	margin-top: 10rem;
+
+	&__container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+
+		p {
+			width: 75%;
+			line-height: 150%;
+
+			&.is-active {
+				color: #F6C44C;
+			}
+		}
+
+	}
+	
+}
