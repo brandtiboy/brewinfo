@@ -14,7 +14,7 @@
 .tap {
 	p {
 		font-size: 1.6rem;
-		font-weight: 500;
+		font-weight: 600;
 		color: #F6C44C;
 	}
 
@@ -51,14 +51,17 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-direction: column;
 		text-align: center;
 
 		p {
 			width: 75%;
 			line-height: 150%;
+			color: #5D5D5D;
 
 			&.is-active {
 				color: #F6C44C;
+				font-weight: 600;
 			}
 		}
 
