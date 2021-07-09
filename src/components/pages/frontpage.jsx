@@ -2,7 +2,11 @@ import React from 'react';
 
 function Frontpage() {
 	return (
-		<main>
+		<div>
+			<header>
+				<h1>Brewinfo</h1>
+			</header>
+
 			<div className="quote">
 				<span>“I want someone to look at me the way i look at coffee”</span>
 			</div>
@@ -22,6 +26,12 @@ function Frontpage() {
 				</div>
 			</div>
 
+			<div className="start">
+				<div className="start__icon">
+					icon
+				</div>
+			</div>
+
 			<div className="steps">
 				<h2>Steps to follow</h2>
 				<div className="steps__container">
@@ -31,7 +41,7 @@ function Frontpage() {
 					<p>Wait until water is through and pour over 150g of water</p>
 				</div>
 			</div>
-		</main>
+		</div>
 	)
 }
 

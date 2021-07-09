@@ -1,0 +1,46 @@
+.tap {
+	p {
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: $primary;
+	}
+
+	&__selections {
+		margin-top: 1.6rem;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__selection {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 26vw;
+		height: 26vw;
+		border-radius: 50%;
+		background: #282828;
+		transition: .3s ease-in-out;
+
+		&:hover {
+			background: #3a3a3a;
+			cursor: pointer;
+		}
+
+		span {
+			position: absolute;
+			top: 110%;
+			font-size: 1.4rem;
+			font-weight: 400;
+			color: white;
+		}
+	}
+
+	&__active {
+		border: 2px solid $primary;
+
+		p {
+			font-weight: 800;
+		}
+	}
+}

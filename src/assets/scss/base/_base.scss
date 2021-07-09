@@ -1,0 +1,55 @@
+html {
+	font-size: 10px;
+}
+
+body {
+	background: $bg;
+}
+
+h1 {
+	font-size: 2.8rem;
+	font-weight: 600;
+	color: white;
+}
+
+h2 {
+	font-size: 1.6rem;
+	font-weight: 800;
+	color: $secondary;
+}
+
+p {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: white;
+}
+
+span {
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #8B8B8B;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-size: 1.8rem;
+	text-decoration: none;
+	color: white;
+	transition: .3s ease-in-out;
+
+	&:hover {
+		color: $primary;
+	}
+}
+
+.container {
+	
+}

@@ -1,0 +1,14 @@
+.info {
+	margin-top: 6rem;
+
+	&__box {
+		padding: .8rem 2.4rem;
+		background: rgba($color: #fff, $alpha: 0.02);
+	}
+
+	p {
+		font-size: 1.8rem;
+		line-height: 150%;
+		color: #ffffffe7;
+	}
+}

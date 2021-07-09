@@ -1,15 +1,14 @@
+// SCSS
 import './App.scss';
 
-import Frontpage from './components/frontpage';
+// Components
+import Frontpage from './components/pages/frontpage';
+import GrindSize from './components/pages/grind-size';
 
 function App() {
   return (
-    <div className="App">
-		<header>
-			<h1>Brewinfo</h1>
-		</header>
-
-		<Frontpage/>
+    <div className="App container">
+		<Frontpage />
     </div>
   );
 }

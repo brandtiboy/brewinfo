@@ -11,41 +11,26 @@
 	}
 }
 
-.tap {
-	p {
-		font-size: 1.6rem;
-		font-weight: 600;
-		color: #F6C44C;
-	}
+.start {
+	margin-top: 6rem;
+	display: flex;
+	justify-content: center;
 
-	&__selections {
-		margin-top: 1.6rem;
-		display: flex;
-		justify-content: space-between;
-	}
-
-	&__selection {
-		position: relative;
+	&__icon {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 26vw;
-		height: 26vw;
+		font-size: 1.8rem;
+		color: white;
+		border: 2px solid $secondary;
+		width: 12vw;
+		height: 12vw;
 		border-radius: 50%;
-		background: #282828;
-
-		span {
-			position: absolute;
-			top: 110%;
-			font-size: 1.4rem;
-			font-weight: 400;
-			color: white;
-		}
 	}
 }
 
 .steps {
-	margin-top: 10rem;
+	margin-top: 8rem;
 
 	&__container {
 		display: flex;
@@ -60,11 +45,10 @@
 			color: #5D5D5D;
 
 			&.is-active {
-				color: #F6C44C;
+				color: $primary;
 				font-weight: 600;
 			}
 		}
 
 	}
-	
 }
